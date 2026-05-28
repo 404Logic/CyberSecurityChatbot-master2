@@ -1,15 +1,21 @@
-# TODO: Complete ✅
+# TODO
 
-# NEW: GitHub Workflow
+## CI / Repository
 
-- [ ] Step 1: Update TODO.md with workflow tasks ✅
-- [ ] Step 2: Create .github/workflows/dotnet.yml
-- [x] Step 3: Update README.md with CI badge & workflow section
-- [x] Step 4: Verify workflow syntax ✅
-- [x] Step 5: Instructions for GitHub push/test ✅
+- [x] Add CI workflow (dotnet.yml)
+- [x] Add CI badge to README
+- [x] Verify workflow syntax
+- [x] Provide instructions for pushing and checking Actions tab
 
-- [ ] Step 1: Create TODO.md ✅ (done)
-- [x] Step 2: Create README.md with all project details
-- [x] Step 3: Review and verify README.md content
-- [x] Step 4: Test project run (`dotnet run`) and update instructions if needed
-- [x] Step 5: Mark complete ✅
+## Project improvements
+
+- [ ] Add unit tests (xUnit/NUnit)
+- [ ] Cross-platform audio support (NAudio or alternative)
+- [ ] Improve NLP (ML.NET or integrations)
+- [ ] Add GUI (WPF/MAUI) or web UI
+- [ ] Add more topics & interactive quizzes
+- [ ] Add LICENSE file (MIT recommended)
+
+Notes:
+- Workflow file was moved to .github/workflows/dotnet.yml. Delete obsolete copies at repository root.
+- README had a merge conflict which was resolved.
