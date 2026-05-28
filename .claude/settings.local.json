@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"from pypdf import PdfReader; r = PdfReader\\('/Users/pfano/Downloads/PROG6221POE PDF.pdf'\\); print\\(f'Pages: {len\\(r.pages\\)}'\\); [print\\(f'--- PAGE {i+1} ---\\\\n{p.extract_text\\(\\)}'\\) for i, p in enumerate\\(r.pages\\)]\")",
+      "Bash(python3 -c \"import pdfplumber; pdf = pdfplumber.open\\('/Users/pfano/Downloads/PROG6221POE PDF.pdf'\\); [print\\(f'--- PAGE {i+1} ---\\\\n{p.extract_text\\(\\)}'\\) for i, p in enumerate\\(pdf.pages\\)]\")",
+      "Bash(pip3 install *)",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}
